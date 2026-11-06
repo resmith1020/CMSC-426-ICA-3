@@ -7,4 +7,6 @@ class TestAdd(unittest.TestCase):
         self.assertEqual(result, 19)
 
 if __name__ == "__main__":
+    print("Application Started")
     unittest.main()
+    print("10 + 9 =", add.addition(10, 9))
