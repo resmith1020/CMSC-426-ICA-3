@@ -4,7 +4,7 @@ from add import addition
 class TestAdd(unittest.TestCase):
     def test_addition(self):
         result = addition(9, 10)
-        self.assertEqual(result, 18)
+        self.assertEqual(result, 19)
         print("Addition Finished Successfully")
 
 if __name__ == "__main__":
